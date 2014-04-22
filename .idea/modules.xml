@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/focallocal.iml" filepath="$PROJECT_DIR$/focallocal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/focallocal-grailsPlugins.iml" filepath="$PROJECT_DIR$/focallocal-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
