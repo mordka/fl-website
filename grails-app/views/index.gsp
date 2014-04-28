@@ -61,11 +61,6 @@
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
     </div>
-
-    <hr>
-    %{--<footer>--}%
-        %{--<p>&copy; Company 2014</p>--}%
-    %{--</footer>--}%
 </div> <!-- /container -->
 </body>
 </html>

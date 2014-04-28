@@ -3,17 +3,34 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<div id="container">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title><g:layoutTitle default="Grails"/></title>
+        <meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
+		<link rel="apple-touch-icon" href="${resource(dir: 'images', file: 'apple-touch-icon.png')}">
+		<link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 'apple-touch-icon-retina.png')}">
+		%{--<link rel="stylesheet" href="${resource(dir: 'css', file: 'main_old.css')}" type="text/css">--}%
+		%{--<link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">--}%
+	    <r:require modules="bootstrap,modernizr,jquery"/>
+        <g:layoutHead/>
+		<g:javascript library="application"/>		
+		<r:layoutResources />
+	</head>
+	<body>
+
     <header>
-        <g:applyLayout name="header" >
+        <g:applyLayout name="header">
             <content tag="header">
                 <g:pageProperty name="page.header" />
             </content>
         </g:applyLayout>
     </header>
-    <div id="main">
-        <g:layoutBody />
-    </div>
+
+    <g:layoutBody/>
+
     <footer>
         <g:applyLayout name="footer">
             <content tag="footer">
@@ -21,4 +38,7 @@
             </content>
         </g:applyLayout>
     </footer>
-</div>
+
+	<r:layoutResources />
+	</body>
+</html>
