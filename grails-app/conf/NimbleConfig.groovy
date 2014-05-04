@@ -32,25 +32,39 @@ nimble {
 
 	localusers {
 		authentication { enabled = true } 
-		registration { enabled = true }
-		provision { active = false }
+        usernames {
+            minlength = 4
+            validregex = '[a-zA-Z0-9]*' //regex that should be used for validating username
+        }
+        provision { active = false } //whether new user accoutn should be enabled or disabled after registration
+        registration { enabled = true } //Allow new users to register or now
 	}
 
-	messaging {
-		enabled = false
+    passwords {
+        mustcontain {
+            lowercase = true
+            uppercase = false
+            numbers = false
+            symbols = false
+        }
+        minlength = 5
+        allowreuse = true
+    }
 
+	messaging {
+		enabled = true
 		registration { subject = "Your new account is ready!" }
 		passwordreset { subject = "Your password has been reset" }
 		changeemail { subject = "Your email address has been changed" }
 
 		mail {
-			from = "App <app@company.com>"
-			host = ""
-			port = 25
-			username = ""
-			password = ""
-			props = ["mail.smtp.auth": "false",
-				"mail.smtp.socketFactory.port": "25",
+			from = "pawel.mordaszewski@gmail.com"
+			host = "smtp.gmail.com"
+			port = 465
+			username = "pawel.mordaszewski@lingaro.com"
+			password = "kodklient5"
+			props = ["mail.smtp.auth": "true",
+				"mail.smtp.socketFactory.port": "465",
 				"mail.smtp.socketFactory.class": "javax.net.ssl.SSLSocketFactory",
 				"mail.smtp.socketFactory.fallback": "false"]
 		}
