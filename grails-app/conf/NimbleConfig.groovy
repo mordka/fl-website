@@ -52,22 +52,10 @@ nimble {
     }
 
 	messaging {
-		enabled = true
+		enabled = false
 		registration { subject = "Your new account is ready!" }
 		passwordreset { subject = "Your password has been reset" }
 		changeemail { subject = "Your email address has been changed" }
-
-		mail {
-			from = "pawel.mordaszewski@gmail.com"
-			host = "smtp.gmail.com"
-			port = 465
-			username = "pawel.mordaszewski@lingaro.com"
-			password = "kodklient5"
-			props = ["mail.smtp.auth": "true",
-				"mail.smtp.socketFactory.port": "465",
-				"mail.smtp.socketFactory.class": "javax.net.ssl.SSLSocketFactory",
-				"mail.smtp.socketFactory.fallback": "false"]
-		}
 	}
 
 	implementation {
