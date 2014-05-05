@@ -95,7 +95,15 @@ environments {
     }
     production {
         grails.logging.jul.usebridge = false
-        // TODO: grails.serverURL = "http://www.changeme.com"
+        grails.serverURL = "http://focallocal.mordka.cloudbees.net/"
+        grails.naming.entries = [
+                "jdbc/focallocal": [
+                        auth: "Container", // optional
+                        description: "Data source for Focal Local", //optional
+                        driverClassName: "com.mysql.jdbc.Driver",
+                        url: "jdbc:cloudbees://focallocal"
+                ]
+        ]
     }
 }
 
