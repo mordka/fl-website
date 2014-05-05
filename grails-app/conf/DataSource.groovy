@@ -31,7 +31,7 @@ environments {
         dataSource {
             pooled = true
             dbCreate = "create"
-//            url = "jdbc:mysql://localhost:3306/my_database"
+            url = "jdbc:cloudbees://focallocal"
             driverClassName = "com.mysql.jdbc.Driver"
             dialect = org.hibernate.dialect.MySQL5InnoDBDialect
             jndiName = 'java:comp/env/jdbc/focallocal'
