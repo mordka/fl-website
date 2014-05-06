@@ -112,7 +112,7 @@ log4j = {
     // Example of changing the log pattern for the default console appender:
     //
     appenders {
-        console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
+        console name:'stdout', layout:pattern(conversionPattern: '%d [%t] %-5p %c - %m%n'), threshold: org.apache.log4j.Level.DEBUG
 //        console name:'stdout', layout:pattern(conversionPattern: '%d [%t] %-5p %c - %m%n'), threshold: DEBUG
     }
 
@@ -129,15 +129,8 @@ log4j = {
            'net.sf.ehcache.hibernate'
     warn   'org.mortbay.log'
 
-    debug  'grails.app'
+    debug  'org.focallocal'
 
-//    root {
-//        error 'stdout'
-//        info 'stdout'
-//        warn 'stdout'
-//        debug 'stdout'
-//        additivity = true
-//    }
 }
 
 
