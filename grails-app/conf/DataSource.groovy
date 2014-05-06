@@ -31,7 +31,7 @@ environments {
         dataSource {
             dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
             pooled = false
-            dbCreate = 'validate' // use 'update', 'validate', 'create' or 'create-drop'
+            dbCreate = 'create' // use 'update', 'validate', 'create' or 'create-drop'
             jndiName = 'java:comp/env/jdbc/focallocal'
         }
     }
