@@ -29,10 +29,15 @@ environments {
     }
     production {
         dataSource {
-            //dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
-           // pooled = false
+            dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
+            pooled = true
             dbCreate = 'create' // use 'update', 'validate', 'create' or 'create-drop'
-            jndiName = 'java:comp/env/jdbc/focallocal'
+            driverClassName = "com.mysql.jdbc.Driver"
+            url = "jdbc:mysql://ec2-23-21-211-172.compute-1.amazonaws.com:3306/focallocal"
+            username = "focallocal"
+            password = "50c476a393734ee1b6f7f2aaf89987be"
+            
+            // jndiName = 'java:comp/env/jdbc/focallocal' //didnt work!!
         }
     }
 }
