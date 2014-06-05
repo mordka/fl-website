@@ -118,28 +118,61 @@
                         </b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li>
-                            <a href="#">
-                                Action
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Another action
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Something else here
-                            </a>
-                        </li>
-                        <li class="divider">
-                        </li>
-                        <li>
-                            <a href="#">
-                                Separated link
-                            </a>
-                        </li>
+                        <div class="login-container">
+                            <div class="login-content">
+                                <h2 class="border-bottom">
+                                    <g:message code="nimble.label.login.signin" />
+                                </h2>
+                                <n:flashembed/>
+                                <g:if test="${registration}">
+                                    <div class="login-options">
+                                        <h4>
+                                            <g:message code="nimble.label.login.signup.heading"/>
+                                        </h4>
+                                        <g:message code="nimble.label.login.signup.descriptive"/>
+                                        <g:link controller="account" action="createuser">
+                                            <g:message code="nimble.link.login.signup"/>
+                                        </g:link>
+                                    </div>
+                                    <div style="text-align: center; margin-bottom: 3px;">-- OR --</div>
+                                </g:if>
+                                <g:form controller="auth" action="signin" name="login-form" method="post">
+                                    <div class="login-input">
+                                        <div class="control-group">
+                                            <div class="controls ">
+                                                <input type="hidden" name="targetUri" value="${targetUri}"/>
+                                                <input type="text" name="username" id="username" placeholder="user@example.com">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <input type="password" name="password" id="password" placeholder="password">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="login-actions">
+                                        <label class="checkbox" style="display: inline-block;">
+                                            <input type="checkbox" name="rememberme">
+                                            <g:message code="nimble.label.rememberme" />
+                                        </label>
+                                        <span class="pull-right clearfix">
+                                            <button type="submit" class="btn btn-primary">
+                                                <g:message code="nimble.link.login.basic" />
+                                            </button>
+                                        </span>
+                                    </div>
+                                    <div class="login-options border-top">
+                                        <h4>
+                                            <g:message code="nimble.label.login.forgottenpassword.heading" />
+                                        </h4>
+                                        <g:message code="nimble.label.login.forgottenpassword.descriptive" />
+                                        <g:link controller="account" action="forgottenpassword" style="text-transform:lowercase;">
+                                            <g:message code="nimble.link.resetpassword" />
+                                        </g:link>
+                                    </div>
+                                </g:form>
+                            </div>
+                        </div>
                     </ul>
                 </li>
             </ul>
@@ -151,10 +184,10 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Modal title</h4>
+                <h4 class="modal-title">Login</h4>
             </div>
             <div class="modal-body">
-                <p>One fine body&hellip;</p>
+                <oauth:connect id="facebook-connect-link" provider="facebook">Log in with Twitter</oauth:connect>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
