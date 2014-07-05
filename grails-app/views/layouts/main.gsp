@@ -21,16 +21,15 @@
 	</head>
 	<body>
     <div class="container">
-    <header>
-        <g:applyLayout name="header">
-            <content tag="header">
-                <g:pageProperty name="page.header" />
-            </content>
-        </g:applyLayout>
-    </header>
-
-    <g:layoutBody/>
-
+        <header>
+            <g:applyLayout name="header">
+                <content tag="header">
+                    <g:pageProperty name="page.header" />
+                </content>
+            </g:applyLayout>
+        </header>
+        <g:layoutBody/>
+    </div>
     <footer>
         <g:applyLayout name="footer">
             <content tag="footer">
@@ -38,7 +37,6 @@
             </content>
         </g:applyLayout>
     </footer>
-    </div>
 	<r:layoutResources />
 	</body>
 </html>

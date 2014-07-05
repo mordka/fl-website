@@ -1,24 +1,30 @@
 .navbar-simple .brand {
- 	padding-top: 15px;
-	padding-bottom: 15px;
+ 	/*padding-top: 15px;*/
+	/*padding-bottom: 15px;*/
 }
-/*.navbar-simple .navbar-inner {
+.navbar-simple .navbar-inner {
 	background: #fff;
 	filter: none !important;
 	box-shadow: 0 2px 15px rgba(0,0,0,0.25);
 	-moz-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
 	-webkit-box-shadow: 0 2px 15px rgba(0,0,0,0.25);
 	border-bottom: 1px solid rgba(0,0,0,0.2);
-}*/
+}
 .navbar-simple .navbar-inner .nav {
 	/*float: right;*/
+}
+
+/*set margin for menu header*/
+.navbar-simple  {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .navbar-simple .navbar-inner .nav li a {
 	background: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	color: #777;
+	color: #edd108;
 	font-size: 13px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -33,6 +39,20 @@
 }		
 .navbar-simple .navbar-inner .nav li.active a {
 	color: #bf3604;
+}
+
+.menu-line {
+    /*border-style: solid;*/
+    /*border-top: 0px;*/
+    /*border-left: 0;*/
+    /*border-right: 0;*/
+    /*border-bottom-color: rgb(240, 179, 23);*/
+     margin-top: 0px;
+     margin-bottom: 0px;
+}
+
+.focal-menu {
+    padding-left: 120px;    /*stay away from logo*/
 }
 
 /*custom */

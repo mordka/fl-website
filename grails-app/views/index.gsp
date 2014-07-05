@@ -7,9 +7,9 @@
 </head>
 
 <body role="document">
-<div class="container">
+
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-md-offset-1">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="">
               <!-- Indicators -->
               <ol class="carousel-indicators">
