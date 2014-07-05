@@ -3,13 +3,13 @@
 <head>
     <title></title>
     <meta name="layout" content="main"/>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/latest/readable/bootstrap.min.css">
+    %{-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/latest/readable/bootstrap.min.css"> --}%
 </head>
 
 <body role="document">
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -55,7 +55,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
             <div class="page-header">
                 <h1>
                     Articles

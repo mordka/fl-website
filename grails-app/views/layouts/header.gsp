@@ -30,13 +30,12 @@
         %{--</div><!--/.navbar-collapse -->--}%
     %{--</div>--}%
 %{--</div>--}%
-
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
+<nav class="navbar navbar-simple" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="container navbar-inner">   
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1">
+                    data-target="#mainNav">
                 <span class="sr-only">
                     Toggle navigation
                 </span>
@@ -48,12 +47,12 @@
                 </span>
             </button>
             <a class="navbar-brand" href="#">
-                FocalLocal
+                <img style="max-width:100px; margin-top: -7px;"
+             src="${resource(dir: 'images', file: 'logo.jpg')}"">
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div
-                class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse " id="mainNav">
             <ul class="nav navbar-nav">
                 <li class="active">
                     <a href="#">
