@@ -10,33 +10,33 @@
 
     <div class="row">
         <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-md-offset-1">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="">
+            <div id="focal-carousel" class="carousel slide" data-ride="carousel" data-interval="">
               <!-- Indicators -->
               <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#focal-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#focal-carousel" data-slide-to="1"></li>
+                <li data-target="#focal-carousel" data-slide-to="2"></li>
               </ol>
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active ">
-                  <r:img dir="images" file="logo.jpg"/>
-                  <div class="carousel-caption">
+                  <r:img dir="images" file="carousel1.jpg"/>
+                  <div class="carousel-caption hidden">
                     <h3>Focal Local</h3>
                     <p>Logo</p>
                   </div>
                 </div>
                 <div class="item">
-                    <r:img dir="images" file="slip.jpg" />
-                    <div class="carousel-caption">
+                    <r:img dir="images" file="carousel2.jpg" />
+                    <div class="carousel-caption hidden">
                         <h3>Focal Local</h3>
                         <p>Slip</p>
                     </div>
                 </div>
                 <div class="item">
-                    <r:img dir="images" file="pillows.jpg"/>
-                    <div class="carousel-caption">
+                    <r:img dir="images" file="carousel3.jpg"/>
+                    <div class="carousel-caption hidden">
                         <h3>Focal Local</h3>
                         <p>Pillow fights</p>
                     </div>
@@ -44,10 +44,10 @@
               </div>
 
               <!-- Controls -->
-              <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <a class="left carousel-control" href="#focal-carousel" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
               </a>
-              <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+              <a class="right carousel-control" href="#focal-carousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
               </a>
             </div>
@@ -55,7 +55,7 @@
     </div>
 
     <div class="row">
-        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-md-offset-1">
             <div class="page-header">
                 <h1>
                     Articles

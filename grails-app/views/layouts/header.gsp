@@ -20,8 +20,9 @@
                     <span class="icon-bar">
                     </span>
                 </button>
-                <a class="navbar-brand" href="#">
-                    <img style="max-width:100px; margin-top: -7px;" src="${resource(dir: 'images', file: 'logo.jpg')}" />
+                <a class="navbar-brand hidden-xs" href="#">
+                    <r:img class="focal-logo" file="logo.jpg" />
+                    %{--<img  src="${resource(dir: 'images', file: 'logo.jpg')}" />--}%
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,12 +32,12 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a data-toggle="modal" href="#loginModal">
-                                Sign up
+                                SIGN UP
                             </a>
                         </li>
                         <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Dropdown
+                            DROPDOWN
                             <b class="caret">
                             </b>
                         </a>
@@ -102,56 +103,56 @@
                 </div>
                 <!-- menu -->
                 <div class="row ">
-                    <ul class="nav navbar-nav focal-menu" style="padding-left: 120px;">
+                    <ul class="nav navbar-nav focal-menu" >
                         <li class="active">
                             <a href="#">
-                                Home
+                                HOME
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Vision
+                                VISION
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Actions
+                                ACTIONS
                             </a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                Events
+                                EVENTS
                                 <b class="caret">
                                 </b>
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
                                     <a href="#">
-                                        Add events
+                                        ADD EVENTS
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Past events
+                                        PAST EVENTS
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Events map
-                                    </a>
-                                </li>
-                                <li class="divider">
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Separated link
+                                        EVENTS MAP
                                     </a>
                                 </li>
                                 <li class="divider">
                                 </li>
                                 <li>
                                     <a href="#">
-                                        One more separated link
+                                        SEPARATED LINK
+                                    </a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        ONE MORE SEPARATED LINK
                                     </a>
                                 </li>
                             </ul>
@@ -163,15 +164,15 @@
                         </li>
                         <li>
                             <a href="#">
-                                THANK YOU's
+                                THANK YOUs
                             </a>
                         </li>
                     </ul>
-                    <hr class="menu-line">
                 </div>
 
             </div>
         </div>
+        <hr class="menu-line">
         </nav>
     </div>
 </div>
