@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'Sackers Gothic';
+    src: url('../fonts/font.ttf');
+}
 .navbar-simple .brand {
  	/*padding-top: 15px;*/
 	/*padding-bottom: 15px;*/
@@ -20,10 +23,8 @@
 	-moz-box-shadow: none;
 	box-shadow: none;
 	color: #000;
-    font-family: 'Exo 2', sans-serif;
-    /*font-family: 'Play', sans-serif;*/
+    font-family: 'Sackers Gothic', sans-serif;
 	font-size: 14px;
-
 	font-weight: 300;
 
 }
@@ -73,10 +74,18 @@
     border-top: 1px solid rgb(254,196,37);
 }
 
-.page-header {
-    /* padding-bottom: 9px; */
+div.page-header {
     margin: 40px 0 20px;
+    border: none;
+}
+
+.page-header h1.underlined {
+    color: #000;
+    display: inline-block;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgb(254,196,37);
+    font-family: 'Sackers Gothic', sans-serif;
+    font-size: 14px;
 }
 
 /*custom */

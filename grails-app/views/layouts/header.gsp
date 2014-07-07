@@ -116,12 +116,12 @@
                         </li>
                         <li>
                             <a href="#">
-                                ACTIONS
+                                SHOP
                             </a>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                EVENTS
+                                ROAD TRIP
                                 <b class="caret">
                                 </b>
                             </a>
@@ -159,12 +159,12 @@
                         </li>
                         <li>
                             <a href="#">
-                                SHOP
+                                BUILD FOCALLOCAL
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                THANK YOUs
+                                CO-CONSPIRATORS
                             </a>
                         </li>
                     </ul>

@@ -57,11 +57,10 @@
     <div class="row">
         <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-md-offset-1">
             <div class="page-header">
-                <h1>
-                    Articles
-                    <span style="color: inherit; line-height: 1.1;">&nbsp;</span>
-                    <small>Subtext for header</small>
+                <h1 class="underlined">
+                    FEATURED ARTICLES
                 </h1>
+
             </div>
 
             <div class="row">
