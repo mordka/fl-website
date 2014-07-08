@@ -27,9 +27,29 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse " id="mainNav">
-                <!-- login/logout -->
+                <!-- upper pane -->
                 <div class="row">
-                    <ul class="nav navbar-nav navbar-right">
+                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-md-offset-2">
+                        <ul class="nav navbar-nav upper-menu " >
+                            <li>
+                                <a href="#">
+                                    CAMPAIGNS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    EVENTS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    BLOG
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                        <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a data-toggle="modal" href="#loginModal">
                                 SIGN UP
@@ -100,10 +120,11 @@
                         </ul>
                     </li>
                     </ul>
+                    </div>
                 </div>
                 <!-- menu -->
                 <div class="row ">
-                    <ul class="nav navbar-nav focal-menu" >
+                    <ul class="nav navbar-nav main-menu" >
                         <li class="active">
                             <a href="#">
                                 HOME
