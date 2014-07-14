@@ -30,23 +30,42 @@
                 <!-- upper pane -->
                 <div class="row">
                     <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-md-offset-2">
-                        <ul class="nav navbar-nav upper-menu " >
-                            <li>
-                                <a href="#">
-                                    CAMPAIGNS
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    EVENTS
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    BLOG
-                                </a>
-                            </li>
-                        </ul>
+                        %{--upper row--}%
+                        <div class="row">
+                            %{--<div class="col-md-6">--}%
+                                <ul class="nav navbar-nav upper-menu">
+                                    <li>
+                                        <a href="#">
+                                            CAMPAIGNS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            EVENTS
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            COMMUNITY BLOG
+                                        </a>
+                                    </li>
+                                </ul>
+                            %{--</div>--}%
+                        </div>
+                        %{--lower row--}%
+                        <div class="row">
+                            %{--<div class="col-md-6">--}%
+                        <i class="fa fa-rss"></i>
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-tumblr"></i>
+                        <i class="fa fa-youtube"></i>
+                        <i class="fa fa-youtube-play"></i>
+                        <i class="fa fa-pinterest"></i>
+
+                            %{--</div>--}%
+                        </div>
+
                     </div>
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <ul class="nav navbar-nav navbar-right">
