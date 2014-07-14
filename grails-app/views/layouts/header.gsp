@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse " id="mainNav">
                 <!-- upper pane -->
                 <div class="row">
-                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-md-offset-2">
+                    <div class="col-md-5 col-md-offset-2">
                         %{--upper row--}%
                         <div class="row">
                             <div class="col-md-12 center-block" style="float: none;"> %{--TODO change to center-block--}%
@@ -54,7 +54,7 @@
                         </div>
                         %{--lower row--}%
                         <div class="row">
-                            <div class="col-md-12 center-block social-buttons" style="float: none;"> %{--TODO change to center-block--}%
+                            <div class="col-md-5 center-block social-buttons" style="float: none;"> %{--TODO change to center-block--}%
                                 <i class="fa fa-rss"></i>
                                 <i class="fa fa-facebook"></i>
                                 <i class="fa fa-twitter"></i>
@@ -66,7 +66,7 @@
                         </div>
 
                     </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="col-md-3">
                         <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a data-toggle="modal" href="#loginModal">
