@@ -32,7 +32,7 @@
                     <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-md-offset-2">
                         %{--upper row--}%
                         <div class="row">
-                            %{--<div class="col-md-6">--}%
+                            <div class="col-md-12 center-block" style="float: none;"> %{--TODO change to center-block--}%
                                 <ul class="nav navbar-nav upper-menu">
                                     <li>
                                         <a href="#">
@@ -50,20 +50,19 @@
                                         </a>
                                     </li>
                                 </ul>
-                            %{--</div>--}%
+                            </div>
                         </div>
                         %{--lower row--}%
                         <div class="row">
-                            %{--<div class="col-md-6">--}%
-                        <i class="fa fa-rss"></i>
-                        <i class="fa fa-facebook"></i>
-                        <i class="fa fa-twitter"></i>
-                        <i class="fa fa-tumblr"></i>
-                        <i class="fa fa-youtube"></i>
-                        <i class="fa fa-youtube-play"></i>
-                        <i class="fa fa-pinterest"></i>
-
-                            %{--</div>--}%
+                            <div class="col-md-12 center-block social-buttons" style="float: none;"> %{--TODO change to center-block--}%
+                                <i class="fa fa-rss"></i>
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-tumblr"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-youtube-play"></i>
+                                <i class="fa fa-pinterest"></i>
+                            </div>
                         </div>
 
                     </div>
