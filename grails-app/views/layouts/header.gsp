@@ -20,12 +20,19 @@
                     <span class="icon-bar">
                     </span>
                 </button>
-                <a class="navbar-brand hidden-xs" href="#">
-                    <r:img class="focal-logo" file="logo_150.jpg" />
-                </a>
+
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse " id="mainNav">
+            <div class="row">
+                <div class="col-md-2">
+                    <a class="focal-logo hidden-xs" href="#">
+                        <r:img  file="logo_150.jpg" />
+                    </a>
+                </div>
+
+                <div class="col-md10">
                 <!-- upper pane -->
                 <div class="row">
                     <div class="col-md-5 col-md-offset-2">
@@ -65,8 +72,7 @@
                         </div>
 
                     </div>
-
-                        <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             SIGN UP
@@ -135,7 +141,8 @@
                 </div>
                 <!-- menu -->
                 <div class="row ">
-                    <ul class="nav navbar-nav main-menu" >
+                    <div class="col-md-10 col-md-offset-2">
+                        <ul class="nav navbar-nav main-menu" >
                         <li class="active">
                             <a href="#">
                                 HOME
@@ -200,9 +207,11 @@
                             </a>
                         </li>
                     </ul>
+                    </div>
                 </div>
-
+                </div>
             </div>
+        </div>
         </div>
         <hr class="menu-line">
         </nav>

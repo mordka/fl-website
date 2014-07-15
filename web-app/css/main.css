@@ -40,20 +40,21 @@
 }
 
 
-.nav.navbar-nav.main-menu {
-    padding-left: 120px !important;   /*stay away from logo*/
+/*.nav.navbar-nav.main-menu {*/
+    /*padding-left: 120px !important;   *//*stay away from logo*/
 
-}
+/*}*/
 /* menu items */
 .nav.navbar-nav.main-menu >li>a {
     padding-top: 30px;
     padding-right: 20px;
     padding-bottom: 5px;
+    font-size: 16px;
     /*text-shadow: 0 0 0 rgba(0, 0, 0, .2);*/
 }
 .focal-logo {
-    max-width: 150px;
-    margin-top: -7px;
+    float: left;
+    height: 100px;
 }
 
 .social-buttons > i {
