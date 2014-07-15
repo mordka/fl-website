@@ -46,9 +46,42 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                             EVENTS
+                                            <b class="caret">
+                                            </b>
                                         </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">
+                                                    ADD EVENTS
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    PAST EVENTS
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    EVENTS MAP
+                                                </a>
+                                            </li>
+                                            <li class="divider">
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    SEPARATED LINK
+                                                </a>
+                                            </li>
+                                            <li class="divider">
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    ONE MORE SEPARATED LINK
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li>
                                         <a href="#">
@@ -159,42 +192,9 @@
                             </a>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="#">
                                 ROAD TRIP
-                                <b class="caret">
-                                </b>
                             </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">
-                                        ADD EVENTS
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        PAST EVENTS
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        EVENTS MAP
-                                    </a>
-                                </li>
-                                <li class="divider">
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        SEPARATED LINK
-                                    </a>
-                                </li>
-                                <li class="divider">
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        ONE MORE SEPARATED LINK
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
                         <li>
                             <a href="#">
