@@ -3,7 +3,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <div class="row">
-    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-md-offset-1">
+    <div class="col-md-10 col-md-offset-1">
         <nav class="navbar navbar-simple" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-inner">
@@ -21,8 +21,7 @@
                     </span>
                 </button>
                 <a class="navbar-brand hidden-xs" href="#">
-                    <r:img class="focal-logo" file="logo.jpg" />
-                    %{--<img  src="${resource(dir: 'images', file: 'logo.jpg')}" />--}%
+                    <r:img class="focal-logo" file="logo_150.jpg" />
                 </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,27 +54,22 @@
                         %{--lower row--}%
                         <div class="row">
                             <div class="col-md-5 center-block social-buttons" style="float: none;"> %{--TODO change to center-block--}%
-                                <i class="fa fa-rss"></i>
-                                <i class="fa fa-facebook"></i>
-                                <i class="fa fa-twitter"></i>
-                                <i class="fa fa-tumblr"></i>
-                                <i class="fa fa-youtube"></i>
-                                <i class="fa fa-youtube-play"></i>
-                                <i class="fa fa-pinterest"></i>
+                                <i class="fa fa-rss" title="RSS"></i>
+                                <i class="fa fa-facebook" title="Facebook"></i>
+                                <i class="fa fa-twitter" title="Twitter"></i>
+                                <i class="fa fa-tumblr" title="Tumblr"></i>
+                                <i class="fa fa-youtube" title="Youtube"></i>
+                                <i class="fa fa-youtube-play" title="Youtube"></i>
+                                <i class="fa fa-pinterest" title="Pinterest"></i>
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-md-3">
+
                         <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a data-toggle="modal" href="#loginModal">
-                                SIGN UP
-                            </a>
-                        </li>
                         <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            DROPDOWN
+                            SIGN UP
                             <b class="caret">
                             </b>
                         </a>
@@ -138,7 +132,6 @@
                         </ul>
                     </li>
                     </ul>
-                    </div>
                 </div>
                 <!-- menu -->
                 <div class="row ">
