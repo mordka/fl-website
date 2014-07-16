@@ -41,7 +41,7 @@
                             <div class="col-md-12 center-block" style="float: none;"> %{--TODO change to center-block--}%
                                 <ul class="nav navbar-nav upper-menu">
                                     <li>
-                                        <a href="#">
+                                        <a class="disabled" href="#">
                                             CAMPAIGNS
                                         </a>
                                     </li>
@@ -52,39 +52,25 @@
                                             </b>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li>
+                                            <li class="disabled">
                                                 <a href="#">
                                                     ADD EVENTS
                                                 </a>
                                             </li>
-                                            <li>
+                                            <li class="disabled">
                                                 <a href="#">
                                                     PAST EVENTS
                                                 </a>
                                             </li>
-                                            <li>
+                                            <li class="disabled">
                                                 <a href="#">
                                                     EVENTS MAP
-                                                </a>
-                                            </li>
-                                            <li class="divider">
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    SEPARATED LINK
-                                                </a>
-                                            </li>
-                                            <li class="divider">
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    ONE MORE SEPARATED LINK
                                                 </a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="http://focallocal.org" target="_blank">
                                             COMMUNITY BLOG
                                         </a>
                                     </li>
