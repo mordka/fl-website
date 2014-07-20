@@ -15,7 +15,9 @@ div {
     font-family: 'Sackers Gothic', sans-serif;
 	font-size: 14px;
     font-weight: 300;
-
+}
+.navbar-simple .navbar-inner .nav li a,
+i.fa {
     -webkit-transition-property:color;
     -webkit-transition-duration: 0.3s,0.2s;
     -webkit-transition-timing-function: ease-out, ease-in;
@@ -33,7 +35,9 @@ div {
 .navbar-simple .navbar-inner .nav li.active a {
 	color: #bf3604;
 }
-
+div.row .nav.navbar-nav.main-menu {
+    margin-top:32px;
+}
 /* menu items */
 .nav.navbar-nav.main-menu >li>a {
     /*padding-top: 30px;*/
@@ -49,6 +53,10 @@ div {
 .focal-logo img {
     max-width:100% !important;
     display:block;
+}
+i.fa:hover {
+    color: #ff9919;
+
 }
 .social-buttons > i {
     padding-left: 2px;
