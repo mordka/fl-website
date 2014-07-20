@@ -26,19 +26,19 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse " id="mainNav">
             <div class="row">
-                <div class="col-md-2">
-                    <a class="focal-logo hidden-xs" href="#">
+                <div class="col-sm-2 hidden-xs col-md-2">
+                    <a class="focal-logo " href="#">
                         <r:img file="logo_150.jpg" />
                     </a>
                 </div>
 
-                <div class="col-md-10">
+                <div class="col-sm-10">
                     <!-- upper pane -->
                     <div class="row">
-                        <div class="col-md-9 col-md-offset-1">
+                        <div class="col-sm-9 col-md-offset-1">
                             %{--upper row--}%
                             <div class="row">
-                                <div class="col-md-10 center-block "  style="float: none;"> %{--TODO change to center-block--}%
+                                <div class="col-sm-11 col-md-10 center-block "  style="float: none;"> %{--TODO change to center-block--}%
                                     <ul class="nav navbar-nav upper-menu">
                                         <li>
                                             <a class="disabled" href="#">
@@ -79,7 +79,7 @@
                             </div>
                             %{--lower row--}%
                             <div class="row">
-                                <div class="col-md-5 center-block social-buttons" style="float: none;"> %{--TODO change to center-block--}%
+                                <div class="col-sm-5 center-block social-buttons" style="float: none;"> %{--TODO change to center-block--}%
                                     <i class="fa fa-rss" title="RSS"></i>
                                     <i class="fa fa-facebook" title="Facebook"></i>
                                     <i class="fa fa-twitter" title="Twitter"></i>
@@ -90,7 +90,7 @@
                             </div>
 
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-3 col-md-2">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -105,9 +105,11 @@
                         </div>
                     </div>
                     <!-- menu -->
-                    <div class="row ">
-                        <div class="col-md-12">
-                            <ul class="nav navbar-nav main-menu" >
+
+                </div>
+                %{--<div class="row ">--}%
+                    <div class="col-sm-12 col-md-10 col-md-offset-2">
+                        <ul class="nav navbar-nav main-menu" >
                             <li class="active">
                                 <a href="#">
                                     HOME
@@ -139,9 +141,8 @@
                                 </a>
                             </li>
                         </ul>
-                        </div>
                     </div>
-                </div>
+                %{--</div>--}%
             </div>
         </div>
         </div>

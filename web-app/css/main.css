@@ -35,12 +35,15 @@ i.fa {
 .navbar-simple .navbar-inner .nav li.active a {
 	color: #bf3604;
 }
-div.row .nav.navbar-nav.main-menu {
-    margin-top:32px;
+
+/*TODO this needs to be moved to less in the future*/
+@media (min-width: 768px)  {
+    div .nav.navbar-nav.main-menu >li>a {
+        padding-right: 10px;
+    }
 }
 /* menu items */
 .nav.navbar-nav.main-menu >li>a {
-    /*padding-top: 30px;*/
     padding-right: 20px;
     padding-bottom: 5px;
     font-size: 16px;
