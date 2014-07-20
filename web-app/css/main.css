@@ -2,6 +2,10 @@
     font-family: 'Sackers Gothic';
     src: url('../fonts/font.ttf');
 }
+div {
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+}
 .navbar-simple .navbar-inner .nav li a {
 	background: none;
 	-webkit-box-shadow: none;
@@ -10,23 +14,29 @@
 	color: #000;
     font-family: 'Sackers Gothic', sans-serif;
 	font-size: 14px;
-	font-weight: 300;
+    font-weight: 300;
+
+    -webkit-transition-property:color;
+    -webkit-transition-duration: 0.3s,0.2s;
+    -webkit-transition-timing-function: ease-out, ease-in;
+    -moz-transition-property:color;
+    -moz-transition-duration:0.1s;
+    -moz-transition-timing-function: linear, ease-in;
+    -o-transition-property:color;
+    -o-transition-duration:0.1s;
+    -o-transition-timing-function: linear, ease-in;
 
 }
 .navbar-simple .navbar-inner .nav li a:hover {
-	background: none;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
-	color: #fec425;
-}		
+	color: #ff9919;
+}
 .navbar-simple .navbar-inner .nav li.active a {
 	color: #bf3604;
 }
 
 /* menu items */
 .nav.navbar-nav.main-menu >li>a {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
     padding-right: 20px;
     padding-bottom: 5px;
     font-size: 16px;
@@ -34,9 +44,12 @@
 }
 .focal-logo {
     float: left;
-    height: 100px;
+    height: 95px;
 }
-
+.focal-logo img {
+    max-width:100% !important;
+    display:block;
+}
 .social-buttons > i {
     padding-left: 2px;
     padding-right: 2px;
