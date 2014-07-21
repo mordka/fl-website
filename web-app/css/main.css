@@ -39,7 +39,7 @@ i.fa {
 /*TODO this needs to be moved to less in the future*/
 @media (min-width: 768px)  {
     div .nav.navbar-nav.main-menu >li>a {
-        padding-right: 10px;
+        padding-right: 5px;
     }
 }
 /* menu items */
@@ -53,15 +53,15 @@ i.fa {
     float: left;
     height: 95px;
 }
-.focal-logo img {
-    max-width:100% !important;
-    display:block;
-}
+
 i.fa:hover {
     color: #ff9919;
     cursor:pointer;
 }
-.social-buttons > i {
+.social-buttons a {
+    color: #000;
+}
+.social-buttons i {
     padding-left: 2px;
     padding-right: 2px;
 }

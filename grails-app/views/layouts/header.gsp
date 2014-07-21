@@ -19,7 +19,7 @@
                     <span class="icon-bar">
                     </span>
                 </button>
-                <a class="navbar-brand" href="#"><r:img file="focallocal_brand.png"/></a>
+                <a class="navbar-brand" href="#"><r:img file="logo_brand.png"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-sm-2 hidden-xs col-md-2">
                     <a class="focal-logo " href="#">
-                        <r:img file="logo_150.jpg" />
+                        <r:img class="img-responsive" file="logo_150.jpg" />
                     </a>
                 </div>
                 <div class="col-sm-10">
@@ -79,11 +79,11 @@
                             <div class="row">
                                 <div class="col-sm-5 center-block social-buttons" style="float: none;"> %{--TODO change to center-block--}%
                                     <i class="fa fa-rss" title="RSS"></i>
-                                    <i class="fa fa-facebook" title="Facebook"></i>
-                                    <i class="fa fa-twitter" title="Twitter"></i>
-                                    <i class="fa fa-tumblr" title="Tumblr"></i>
-                                    <i class="fa fa-youtube" title="Youtube"></i>
-                                    <i class="fa fa-pinterest" title="Pinterest"></i>
+                                    <a href="http://www.facebook.com/Focallocal" target="_blank"><i class="fa fa-facebook" title="Facebook"></i></a>
+                                    <a href="http://twitter.com/Focallocal" target="_blank"><i class="fa fa-twitter" title="Twitter"></i></a>
+                                    <a href="http://focallocal.tumblr.com" target="_blank"><i class="fa fa-tumblr" title="Tumblr"></i></a>
+                                    <a href="http://www.youtube.com/user/Focallocal" target="_blank"><i class="fa fa-youtube" title="Youtube"></i></a>
+                                    <a href="http://www.pinterest.com/aatfocallocal" target="_blank"><i class="fa fa-pinterest" title="Pinterest"></i></a>
                                 </div>
                             </div>
 
