@@ -7,9 +7,8 @@
         <nav class="navbar navbar-simple" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-inner">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#mainNav">
+            <div class="visible-xs navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
                     <span class="sr-only">
                         Toggle navigation
                     </span>
@@ -20,7 +19,7 @@
                     <span class="icon-bar">
                     </span>
                 </button>
-
+                <a class="navbar-brand" href="#"><r:img file="focallocal_brand.png"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,7 +30,6 @@
                         <r:img file="logo_150.jpg" />
                     </a>
                 </div>
-
                 <div class="col-sm-10">
                     <!-- upper pane -->
                     <div class="row">
@@ -90,6 +88,7 @@
                             </div>
 
                         </div>
+                        %{--signup button--}%
                         <div class="col-sm-3 col-md-2">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown">
@@ -107,42 +106,40 @@
                     <!-- menu -->
 
                 </div>
-                %{--<div class="row ">--}%
-                    <div class="col-sm-12 col-md-10 col-md-offset-2">
-                        <ul class="nav navbar-nav main-menu" >
-                            <li class="active">
-                                <a href="#">
-                                    HOME
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    VISION
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    SHOP
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#">
-                                    ROAD TRIP
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    BUILD FOCALLOCAL
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    CO-CONSPIRATORS
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                %{--</div>--}%
+                <div class="col-sm-12 col-md-10 col-md-offset-2">
+                    <ul class="nav navbar-nav main-menu" >
+                        <li class="active">
+                            <a href="#">
+                                HOME
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                VISION
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                SHOP
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">
+                                ROAD TRIP
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                BUILD FOCALLOCAL
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                CO-CONSPIRATORS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         </div>

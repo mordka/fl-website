@@ -59,7 +59,7 @@ i.fa {
 }
 i.fa:hover {
     color: #ff9919;
-
+    cursor:pointer;
 }
 .social-buttons > i {
     padding-left: 2px;
