@@ -1,11 +1,13 @@
+/*
+    GLOBAL STYLING
+*/
 @font-face {
     font-family: 'Sackers Gothic';
     src: url('../fonts/font.ttf');
 }
-div {
-    /*border-width: 1px;*/
-    /*border-style: solid;*/
-}
+/*
+    MENU
+*/
 .navbar-simple .navbar-inner .nav li a {
 	background: none;
 	-webkit-box-shadow: none;
@@ -42,13 +44,30 @@ i.fa {
         padding-right: 5px;
     }
 }
-/* menu items */
+
 .nav.navbar-nav.main-menu >li>a {
     padding-right: 20px;
     padding-bottom: 5px;
     font-size: 16px;
     /*text-shadow: 0 0 0 rgba(0, 0, 0, .2);*/
 }
+
+.menu-line {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 1px solid rgb(254,196,37);
+}
+
+
+.upper-menu {
+    border-bottom: 1px solid rgb(254,196,37);
+}
+.nav.navbar-nav.upper-menu >li>a {
+    padding-bottom: 5px;
+}
+/*
+    LOGO
+*/
 .focal-logo {
     float: left;
     height: 95px;
@@ -58,6 +77,9 @@ i.fa:hover {
     color: #ff9919;
     cursor:pointer;
 }
+/*
+    SOCIAL BUTTONS
+*/
 .social-buttons a {
     color: #000;
 }
@@ -65,6 +87,9 @@ i.fa:hover {
     padding-left: 2px;
     padding-right: 2px;
 }
+/*
+    CAROUSEL STYLING
+*/
 .carousel .carousel-indicators {
     margin-bottom: -50px;
 }
@@ -78,21 +103,18 @@ i.fa:hover {
     background-color: rgb(254,196,37);
 }
 
-.menu-line {
-    margin-top: 0;
-    margin-bottom: 0;
-    border-top: 1px solid rgb(254,196,37);
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    /*height: 300px;*/
+    /*max-height: 300px;*/
 }
 
+/*
+    BODY
+*/
 div.page-header {
     margin: 40px 0 20px;
     border: none;
-}
-.upper-menu {
-    border-bottom: 1px solid rgb(254,196,37);
-}
-.nav.navbar-nav.upper-menu >li>a {
-    padding-bottom: 5px;
 }
 .page-header h1.underlined {
     color: #000;
@@ -101,11 +123,4 @@ div.page-header {
     border-bottom: 1px solid rgb(254,196,37);
     font-family: 'Sackers Gothic', sans-serif;
     font-size: 14px;
-}
-
-/*custom */
-.carousel-inner > .item > img {
-    margin: 0 auto;
-    /*height: 300px;*/
-    /*max-height: 300px;*/
 }
