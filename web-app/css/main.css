@@ -88,6 +88,17 @@ i.fa:hover {
     padding-right: 2px;
 }
 /*
+    lOGIN DROPDOWN
+*/
+.login-dropdown {
+    width: 250px;
+    height: 250px;
+    padding: 0 15px 0 15px;
+}
+.login-dropdown .login-actions {
+    margin-left: 20px;
+}
+/*
     CAROUSEL STYLING
 */
 .carousel .carousel-indicators {

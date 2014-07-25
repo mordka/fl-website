@@ -21,9 +21,9 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active ">
-                  <r:img dir="images" file="carousel1.jpg"/>
+                  <r:img dir="images" file="carousel1.jpg"  class="img-responsive"/>
                   <div class="carousel-caption hidden">
-                    <h3>Focal Local</h3>
+                    <h4>Focal Local</h4>
                     <p>Logo</p>
                   </div>
                 </div>
