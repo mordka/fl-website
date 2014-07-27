@@ -36,7 +36,7 @@ nimble {
             minlength = 4
             validregex = '[a-zA-Z0-9]*' //regex that should be used for validating username
         }
-        provision { active = false } //whether new user accoutn should be enabled or disabled after registration
+        provision { active = true } //whether new user accoutn should be enabled or disabled after registration
         registration { enabled = true } //Allow new users to register or now
 	}
 

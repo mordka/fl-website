@@ -92,13 +92,29 @@
                         <div class="col-sm-3 col-md-2">
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                        SIGN UP
-                                        <b class="caret"></b>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <g:render template="../templates/signup" />
-                                    </ul>
+                                    <n:isLoggedIn>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <i class="fa fa-user"></i>
+                                            <n:principal/>
+                                            <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <g:link controller="auth" action="logout" style="text-transform:lowercase;">
+                                                <g:message code="nimble.link.logout.basic"/>
+                                            </g:link>
+                                        </ul>
+                                    </n:isLoggedIn>
+
+                                    <n:isNotLoggedIn>
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            %{--<i class="fa fa-user"></i>--}%
+                                            SIGN UP
+                                            <b class="caret"></b>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <g:render template="../templates/signup"/>
+                                        </ul>
+                                     </n:isNotLoggedIn>
                                 </li>
                             </ul>
                         </div>
