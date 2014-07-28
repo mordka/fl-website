@@ -11,7 +11,7 @@ environments {
     development {
         dataSource {
             pooled = false
-            dbCreate = "create"
+            dbCreate = "update"
             url = "jdbc:mysql://localhost:3306/focallocal"
             driverClassName = "com.mysql.jdbc.Driver"
             dialect = org.hibernate.dialect.MySQL5InnoDBDialect
@@ -34,7 +34,7 @@ environments {
         dataSource {
             dialect = 'org.hibernate.dialect.MySQL5InnoDBDialect'
             pooled = true
-            dbCreate = 'create' // use 'update', 'validate', 'create' or 'create-drop'
+            dbCreate = 'update' // use 'update', 'validate', 'create' or 'create-drop'
             driverClassName = "com.mysql.jdbc.Driver"
             url = "jdbc:mysql://ec2-23-21-211-172.compute-1.amazonaws.com:3306/focallocal"
             username = "focallocal"
