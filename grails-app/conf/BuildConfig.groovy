@@ -61,9 +61,9 @@ grails.project.dependency.resolution = {
         compile ":scaffolding:2.0.3"
         compile ':cache:1.1.1'
         compile (":nimble:latest.integration") { excludes "servlet-api" }
-
+//        compile (":shiro-oauth:0.3") { excludes "shiro" }
         compile ":modernizr:2.7.1.1"
-        compile ":twitter-bootstrap:3.1.1"
+        compile ":twitter-bootstrap:3.2.0"
         runtime ":jquery:1.11.0.1"
 //        compile ':spring-security-core:2.0-RC2'
 
