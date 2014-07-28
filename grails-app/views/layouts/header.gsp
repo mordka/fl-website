@@ -99,9 +99,17 @@
                                             <b class="caret"></b>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <g:link controller="auth" action="logout" style="text-transform:lowercase;">
-                                                <g:message code="nimble.link.logout.basic"/>
-                                            </g:link>
+                                            <li class="disabled">
+                                                <a href="#">
+                                                    PROFILE
+                                                </a>
+                                            </li>
+                                            <li class="divider"></li>
+                                            <li class="text-uppercase">
+                                                <g:link controller="auth" action="logout">
+                                                    <g:message code="nimble.link.logout.basic"/>
+                                                </g:link>
+                                            </li>
                                         </ul>
                                     </n:isLoggedIn>
 

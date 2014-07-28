@@ -31,7 +31,7 @@
             <label class="sr-only" for="username">Email address</label>
             <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                <input type="text" class="form-control" name="username" id="username" placeholder="email address">
+                <input type="text" class="form-control" name="username" id="username" placeholder="username">
             </div>
         </div>
         <div class="form-group">
