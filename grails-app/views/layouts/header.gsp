@@ -108,7 +108,7 @@
                                     <n:isNotLoggedIn>
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                             %{--<i class="fa fa-user"></i>--}%
-                                            SIGN UP
+                                            Login
                                             <b class="caret"></b>
                                         </a>
                                         <ul class="dropdown-menu">

@@ -92,7 +92,7 @@ i.fa:hover {
 */
 .login-dropdown {
     width: 250px;
-    height: 250px;
+    /*height: 250px;*/
     padding: 0 15px 0 15px;
 }
 .login-dropdown .login-actions {
