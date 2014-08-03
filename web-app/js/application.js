@@ -7,3 +7,7 @@ if (typeof jQuery !== 'undefined') {
 		});
 	})(jQuery);
 }
+
+$('.dropdown-menu').click(function(e) {
+    e.stopPropagation();
+});
