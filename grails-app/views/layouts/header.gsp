@@ -12,12 +12,7 @@
                     <span class="sr-only">
                         Toggle navigation
                     </span>
-                    <span class="icon-bar">
-                    </span>
-                    <span class="icon-bar">
-                    </span>
-                    <span class="icon-bar">
-                    </span>
+                    <i class="fa fa-bars fa-2x"></i>
                 </button>
                 <a class="navbar-brand" href="#"><r:img file="logo_brand.png"/></a>
             </div>
