@@ -136,11 +136,15 @@ log4j = {
 
 }
 
-grails.blog.author.evaluator = {
+/** SIMPLE BLOG PLUGIN - determine current user */
+evaluator = {
     Long id = SecurityUtils.getSubject()?.principal
     id ? UserBase.get(id).username : null
 }
+grails.blog.author.evaluator = evaluator
+grails.commentable.poster.evaluator = evaluator
 
+/** FACEBOOK INTEGRATION */
 //oauth {
 //    providers {
 //        facebook {
