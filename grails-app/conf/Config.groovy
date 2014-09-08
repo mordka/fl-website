@@ -1,3 +1,6 @@
+import grails.plugin.nimble.core.UserBase
+import org.apache.shiro.SecurityUtils
+
 // locations to search for config files that get merged into the main config;
 // config files can be ConfigSlurper scripts, Java properties files, or classes
 // in the classpath in ConfigSlurper format
@@ -128,11 +131,30 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
     warn   'org.mortbay.log'
-
+    info   'grails.plugin.nimble.core'
     debug  'org.focallocal'
 
 }
 
+grails.blog.author.evaluator = {
+    Long id = SecurityUtils.getSubject()?.principal
+    id ? UserBase.get(id).username : null
+}
+
+//oauth {
+//    providers {
+//        facebook {
+//            successUri = '/oauth/success?provider=facebook'
+//            failureUri = '/unauthorized'
+//            key = '756456811041102'
+//            secret = '425fb8129d02ff8d3532c3a6a0243790'
+//            callback = "${grails.serverURL}/oauth/facebook/callback"
+//        }
+//    }
+//}
+//
+//
+//security.shiro.oauth.linkAccountUrl = "/oauth/linkaccount"
 
 
 
