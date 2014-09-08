@@ -64,11 +64,12 @@ grails.project.dependency.resolution = {
 //        compile (":shiro-oauth:0.3") { excludes "shiro" }
         compile ":modernizr:2.7.1.1"
         compile ":twitter-bootstrap:3.2.0"
-        runtime ":jquery:1.11.0.1"
+        compile ":simple-blog:0.3.4"
+        compile ":mysql-connectorj:5.1.22.1"
 //        compile ':spring-security-core:2.0-RC2'
 
         // plugins needed at runtime but not for compilation
-        compile ":mysql-connectorj:5.1.22.1"
+        runtime ":jquery:1.11.0.1"
         runtime ":hibernate:3.6.10.13" // ":hibernate4:4.3.5.1"  //
         runtime ":database-migration:1.4.0"
         runtime ":resources:1.2.7"

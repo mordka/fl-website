@@ -63,9 +63,9 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="http://focallocal.org" target="_blank">
+                                            <g:link controller="blog">
                                                 COMMUNITY BLOG
-                                            </a>
+                                            </g:link>
                                         </li>
                                     </ul>
                                 </div>
