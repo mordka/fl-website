@@ -1,6 +1,9 @@
 <h2 class="entryTitle">
 	<g:link controller="blog" action="showEntry" params="[title:entry.title, author:entry.author]">${entry.title}</g:link>
 </h2>
+<div class="entryBriefing">
+    <fl:truncateBlogPost charsToShow="250">${entry.body}</fl:truncateBlogPost>
+</div>
 <div class="entryDetails">
 	<g:formatDate date="${entry.dateCreated}" format="MMMMM dd, yyyy" /> by
 	<g:link controller="blog" action="${entry.author}">${entry.author}</g:link> |
