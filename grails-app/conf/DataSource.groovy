@@ -1,3 +1,5 @@
+import org.hibernate.dialect.MySQL5InnoDBDialect
+
 hibernate {
     cache.use_second_level_cache = true
     cache.use_query_cache = false
@@ -8,13 +10,14 @@ hibernate {
 
 // environment specific settings
 environments {
+    //sudo /etc/init.d/mysql start
     development {
         dataSource {
             pooled = false
             dbCreate = "update"
             url = "jdbc:mysql://localhost:3306/focallocal"
             driverClassName = "com.mysql.jdbc.Driver"
-            dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+            dialect = MySQL5InnoDBDialect
             username = "focallocal"
             password = "secretDBpa55"
         }
@@ -25,7 +28,7 @@ environments {
             dbCreate = "create"
             url = "jdbc:mysql://localhost:3306/focallocal"
             driverClassName = "com.mysql.jdbc.Driver"
-            dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+            dialect = MySQL5InnoDBDialect
             username = "focallocal"
             password = "secretDBpa55"
         }
