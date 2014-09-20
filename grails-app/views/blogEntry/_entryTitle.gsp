@@ -19,7 +19,7 @@
             <div class="col-md-10">
                 <p><fl:truncateBlogPost charsToShow="250">${entry.body}</fl:truncateBlogPost></p>
                 <p>
-                    <a class="btn btn-warning" href="#">Read more</a>
+                    <g:link class="btn btn-default btn-xs" controller="blog" action="showEntry" params="[title:entry.title, author:entry.author]">Read more</g:link>
                 </p>
             </div>
         </div>
@@ -41,7 +41,7 @@
                     | <i class="glyphicon glyphicon-tags"></i> Tags:
                     <g:each status="i" var="tag" in="${entry.tags}">
                     <g:link controller="blog" action="tagged" id="${tag}">
-                        <span class="label label-warning">
+                        <span class="label label-default">
                         ${tag}
                         </span>
                     </g:link>

@@ -14,8 +14,8 @@
         <div class="col-xs-12 col-md-10 col-md-offset-1">
             <div class="row">
                 <div class="col-md-12">
-                    <g:link class="btn btn-warning btn-primary btn-lg btn-block" controller="blog" action="createEntry">
-                        <g:message code="grails.blog.createEntry.link" default="New post"></g:message>
+                    <g:link class="btn btn-default " controller="blog" action="createEntry">
+                        <g:message code="grails.blog.createEntry.link" default="Write new article!"></g:message>
                     </g:link>
                 </div>
             </div>
