@@ -62,6 +62,7 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.1'
         compile (":nimble:latest.integration") { excludes "servlet-api" }
 //        compile (":shiro-oauth:0.3") { excludes "shiro" }
+        compile ":pretty-time:2.1.3.Final-1.0.1"
         compile ":modernizr:2.7.1.1"
         compile ":twitter-bootstrap:3.2.0"
         compile ":simple-blog:0.3.4"

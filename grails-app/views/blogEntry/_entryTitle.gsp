@@ -30,7 +30,7 @@
                     <i class="glyphicon glyphicon-user"></i> by
                     <g:link controller="blog" action="${entry.author}">${entry.author}</g:link> |
                     <i class="glyphicon glyphicon-calendar"></i>
-                    %{--<prettytime:display html5wrapper date="${entry.dateCreated}"/> |--}%
+                    <prettytime:display date="${entry.dateCreated}"/> |
                     <i class="glyphicon glyphicon-comment"></i>
                     <g:link controller="blog" action="showEntry"
                             params="[author:entry.author, title:entry.title]" fragment="comments">
