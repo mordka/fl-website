@@ -46,10 +46,10 @@
                         ${entry.body}
                     </p>
                 </div>
-                <div id="comment" class="col-md-12">
-                    <h2>Comments:</h2>
-                    <comments:render bean="${entry}" />
-                </div>
+                %{--<div id="comment" class="col-md-12">--}%
+                    %{--<h2>Comments:</h2>--}%
+                    %{--<comments:render bean="${entry}" />--}%
+                %{--</div>--}%
             </div>
 
 
