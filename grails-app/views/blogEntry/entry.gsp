@@ -10,8 +10,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <g:link class="btn btn-default" controller="blog" action="list"><g:message code="grails.blog.list.link" default="Blog Home"></g:message></g:link>
-                    <g:link class="btn btn-default" controller="blog" action="editEntry" id="${entry.id}"><g:message code="grails.blog.edit.link" default="Edit Entry"></g:message></g:link>
-                    <g:link class="btn btn-default" controller="blog" action="deleteEntry" id="${entry.id}"><g:message code="grails.blog.delete.link" default="Delete Entry"></g:message></g:link>
+                    <n:isLoggedIn>
+                        <g:link class="btn btn-default" controller="blog" action="editEntry" id="${entry.id}"><g:message code="grails.blog.edit.link" default="Edit Entry"></g:message></g:link>
+                        <g:link class="btn btn-default" controller="blog" action="deleteEntry" id="${entry.id}"><g:message code="grails.blog.delete.link" default="Delete Entry"></g:message></g:link>
+                    </n:isLoggedIn>
                 </div>
             </div>
             <div class="row">
@@ -45,7 +47,7 @@
                     </p>
                 </div>
                 <div id="comment" class="col-md-12">
-                    <h2><g:message code="grails.blog.comments.title" default="Recent Comments:"></g:message></h2>
+                    <h2>Comments:</h2>
                     <comments:render bean="${entry}" />
                 </div>
             </div>
