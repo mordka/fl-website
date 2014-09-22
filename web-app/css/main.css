@@ -135,3 +135,38 @@ div.page-header {
     font-family: 'Sackers Gothic', sans-serif;
     font-size: 14px;
 }
+
+/*
+    FOOTER
+*/
+
+.social {
+    -webkit-transform:scale(0.8);
+    /* Browser Variations: */
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8);
+    color:  #ff9919;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+.social:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+}
+.social.social-fb:hover {
+    color: #3B5998;
+}
+.social.social-tw:hover {
+    color: #4099FF;
+}
+.social.social-gp:hover {
+    color: #d34836;
+}
+.social.social-yt:hover {
+    color: #c2050a;
+}
+.social.social-rss:hover {
+    color: #000000;
+}
