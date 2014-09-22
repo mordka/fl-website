@@ -128,7 +128,7 @@
                 <div class="col-sm-12 col-md-10 col-md-offset-2">
                     <ul class="nav navbar-nav main-menu" >
                         <li class="active">
-                            <a href="#">
+                            <a href="${request.contextPath}">
                                 HOME
                             </a>
                         </li>
