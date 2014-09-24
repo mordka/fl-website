@@ -20,9 +20,9 @@
                 <a href="http://www.youtube.com/user/Focallocal" target="_blank">
                     <i class="fa fa-youtube-square fa-3x social social-yt" title="Youtube"></i>
                 </a>
-                <a href="${request.forwardURI}blog/feed/rss" target="_blank">
+                <g:link controller="blog" action="feed" params="[format:'rss']" target="_blank">
                     <i class="fa fa-rss-square fa-3x social social-rss" title="RSS"></i>
-                </a>
+                </g:link>
             </div>
         </div>
     </div>

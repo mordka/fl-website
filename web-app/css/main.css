@@ -1,10 +1,10 @@
 /*
     GLOBAL STYLING
 */
-@font-face {
-    font-family: 'Sackers Gothic';
-    src: url('../fonts/font.ttf');
-}
+/*@font-face {*/
+    /*font-family: 'Sackers Gothic';*/
+    /*src: url('../fonts/font.ttf');*/
+/*}*/
 /*
     MENU
 */
@@ -71,6 +71,7 @@ i.fa {
 .focal-logo {
     float: left;
     height: 95px;
+    width: 100%;
 }
 
 i.fa:hover {

@@ -60,6 +60,7 @@ grails.project.dependency.resolution = {
         // plugins for the compile step
         compile ":scaffolding:2.0.3"
         compile ':cache:1.1.1'
+        compile ":font-awesome-resources:4.2.0.0"
         compile (":nimble:latest.integration") { excludes "servlet-api" }
 //        compile (":shiro-oauth:0.3") { excludes "shiro" }
         compile ":pretty-time:2.1.3.Final-1.0.1"
@@ -68,12 +69,12 @@ grails.project.dependency.resolution = {
         compile ":simple-blog:0.3.4"
         compile ":mysql-connectorj:5.1.22.1"
 //        compile ':spring-security-core:2.0-RC2'
-
+//TODO https://github.com/azhawkes/grails-markdown-blog/
         // plugins needed at runtime but not for compilation
         runtime ":jquery:1.11.0.1"
         runtime ":hibernate:3.6.10.13" // ":hibernate4:4.3.5.1"  //
         runtime ":database-migration:1.4.0"
-        runtime ":resources:1.2.7"
+        compile ":resources:1.2.8"
         // Uncomment these (or add new ones) to enable additional resources capabilities
         //runtime ":zipped-resources:1.0.1"
         //runtime ":cached-resources:1.1"

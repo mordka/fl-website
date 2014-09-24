@@ -128,9 +128,9 @@
                 <div class="col-sm-12 col-md-10 col-md-offset-2">
                     <ul class="nav navbar-nav main-menu" >
                         <li class="active">
-                            <a href="${request.contextPath}">
+                            <g:link absolute="true" uri="/">
                                 HOME
-                            </a>
+                            </g:link>
                         </li>
                         <li>
                             <a href="#">
