@@ -1,5 +1,3 @@
-import grails.plugin.nimble.core.UserBase
-import org.apache.shiro.SecurityUtils
 
 grails.project.groupId = focallocal
 
@@ -114,30 +112,4 @@ log4j.main = {
     debug  'org.focallocal'
 
 }
-
-/** SIMPLE BLOG PLUGIN - determine current user */
-evaluator = {
-    Long id = SecurityUtils.getSubject()?.principal
-    id ? UserBase.get(id).username : null
-}
-grails.blog.author.evaluator = evaluator
-grails.commentable.poster.evaluator = evaluator
-
-/** FACEBOOK INTEGRATION */
-//oauth {
-//    providers {
-//        facebook {
-//            successUri = '/oauth/success?provider=facebook'
-//            failureUri = '/unauthorized'
-//            key = '756456811041102'
-//            secret = '425fb8129d02ff8d3532c3a6a0243790'
-//            callback = "${grails.serverURL}/oauth/facebook/callback"
-//        }
-//    }
-//}
-//
-//
-//security.shiro.oauth.linkAccountUrl = "/oauth/linkaccount"
-
-
 
