@@ -1,4 +1,7 @@
-FocalLocal
+PROJECT DISCONTINUED 
+===========
+
+FocalLocal 
 ===========
 
 What would the world be like if everywhere you went people were creating simple and fun events, reaching out all the time to the people living around them and asking them to come together and share a positive experience with each other?
